@@ -125,7 +125,7 @@ main{
         display: flex;
         display: grid;
         justify-content: center;
-        align-items: center;
+        // align-items: center;
         flex-direction: column;
         height: 400px;
         width: 100%;
@@ -224,4 +224,29 @@ main{
     }
     
 }
+@media(min-width:600px) and (max-width:100px){
+    nav header main section footer{
+        font-size: xx-small;
+        
+    }
+    
+
+
+}
+@media(min-width:1000px) and (max-width:600px){
+    nav header main section footer{
+        font-size: small;
+        
+    }
+   
+
+}
+@media(min-width:1919px) and (max-width:1000px){
+    nav header main section footer{
+        font-size: large;
+    }
+
+
+}
+
   
