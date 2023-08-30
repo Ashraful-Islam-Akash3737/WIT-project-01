@@ -114,23 +114,21 @@ header{
 }
 main{
     display: grid;
+    height: 400px;
+    width: 100vw;
+    margin-bottom: 10px;
+    background-color: orange;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:30px;
-    height: 510px;
-    width: 100vw;
-    margin-bottom: 700px;
     .main-title{
-        // display: grid;
-        // grid-template-columns: 1fr 1fr 1fr;
-        // grid-gap:2px;
         display: flex;
+        display: grid;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-        background-color: rgba(128, 128, 128, 0.107);
-        margin-top: 30px;
-        margin-left: 5px;
-        margin-right: 5px;
-        height: 510px;
-        padding: 5px;
+        height: 400px;
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.32);
         .title{
             h1{
                 color:blue;
@@ -152,6 +150,7 @@ main{
             background-image: url("/img-content2.jpg");
             background-size: cover;
         }
+        
         .img-contant3{
             height: 200px;
             background-image: url("/img-content3.jpg");
@@ -159,3 +158,55 @@ main{
         }
     }
 }
+.main-speech{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    margin-bottom: 10px;
+    h2{
+        color: white;
+    }
+    h4{
+        color:white
+    }
+}
+.mail-box{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    .mailbox-pic{
+        background-image: url("/mail-icon.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 90px;
+        width: 50%;
+        margin-left: 500px;
+    }
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: center;
+        .contact-us{
+            h1{
+
+            }
+
+        }
+        .about-contact-us{
+            h4{
+
+            }
+        }
+    }
+}
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+}
+  
