@@ -112,3 +112,50 @@ header{
         }
     }
 }
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:30px;
+    height: 510px;
+    width: 100vw;
+    margin-bottom: 700px;
+    .main-title{
+        // display: grid;
+        // grid-template-columns: 1fr 1fr 1fr;
+        // grid-gap:2px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(128, 128, 128, 0.107);
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 510px;
+        padding: 5px;
+        .title{
+            h1{
+                color:blue;
+            }
+        }
+        
+        h5{
+            color:green;
+        }
+        
+        .img-contant1{
+            height: 200px;
+            background-image: url("/img-content1.jpg");
+            background-size: cover;
+
+        }
+        .img-contant2{            
+            height: 200px;
+            background-image: url("/img-content2.jpg");
+            background-size: cover;
+        }
+        .img-contant3{
+            height: 200px;
+            background-image: url("/img-content3.jpg");
+            background-size: cover;
+        }
+    }
+}
